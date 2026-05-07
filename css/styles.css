@@ -191,7 +191,7 @@ footer {
   color: #58a6ff;
 }
 
-.read-more {
+.start {
   display: inline-block;
   margin-top: 1rem;
   color: #79c0ff;
@@ -200,7 +200,7 @@ footer {
   transition: .2s;
 }
 
-.read-more:hover {
+.start:hover {
   color: #58a6ff;
   text-shadow: 0 0 8px rgba(88,166,255,0.7);
 }
