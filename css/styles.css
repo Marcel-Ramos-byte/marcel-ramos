@@ -69,8 +69,12 @@ main {
   padding: 3rem 1rem;
 }
 
-#sobre, #formacao, #portfolio, #contato, #blog {
+#sobre {
   padding-top: 70px;
+}
+
+#formacao, #portfolio, #contato {
+  padding: 4rem 2 rem;
 }
 
 section {
