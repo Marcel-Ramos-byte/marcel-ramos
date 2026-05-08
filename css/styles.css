@@ -74,11 +74,11 @@ main {
 }
 
 #formacao, #portfolio, #contato {
-  padding: 4rem 2 rem;
+  padding: 3.7rem 1rem;
 }
 
 section {
-  margin-bottom: 4rem;
+  margin-bottom: .5rem;
 }
 
 h2 {
@@ -217,7 +217,7 @@ footer {
 
 .contact-card {
   background: linear-gradient(135deg, #161b22, #0d1117);
-  padding: 2rem;
+  padding: 2rem 4rem;
   border-radius: 14px;
   border: 1px solid rgba(255,255,255,0.07);
   box-shadow:
