@@ -1,191 +1,371 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Marcel Ramos | Especialista IT/OT</title>
-  <meta name="description" content="Portfólio profissional Marcel Ramos: Automação Industrial, Instrumentação e TI.">
-  <link rel="stylesheet" href="./css/styles.css"> <!--chamada para o css-->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonata Barbearia — Precisão, Tradição e Respeito</title>
+    <meta
+      name="description"
+      content="Sonata Barbearia: uma experiência cinematográfica de corte, barba e ritual. Premium, artesanal e silenciosamente luxuosa."
+    />
+    <meta property="og:title" content="Sonata Barbearia" />
+    <meta
+      property="og:description"
+      content="Precisão, tradição e respeito. Barbearia premium em São Paulo."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand-link">
+          <span class="brand-name">Sonata</span>
+          <span class="label brand-subtitle">Barbearia</span>
+        </a>
 
-<body>
-<!--faz todas as referencias #start levarem o link ao topo da pagina-->
-<div id="start"></div>
+        <nav class="desktop-nav" aria-label="Principal">
+          <a class="label nav-link" href="#sobre">Sobre</a>
+          <a class="label nav-link" href="#servicos">Serviços</a>
+          <a class="label nav-link" href="#experiencia">Experiência</a>
+          <a class="label nav-link" href="#visite">Visite</a>
+        </nav>
 
-<!--cabeçalho da pagina-->
-<header>
-  <div class="container">
-    <h1>Marcel Ramos</h1>
-    <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
-    <nav class="nav-menu">
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="#blog">Blog</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+        <a href="#visite" class="header-cta">Agendar</a>
 
-<main class="container">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>
-      Olá sou Marcel Ramos seja bem-vindo a minha pagina profissional
-    </p>
-    <p>
-      Formado como Técnico em Automação Industrial e Eletrotécnica, com experiência prática nas áreas de elétrica, instrumentação e automação industrial.
-    </p>
-    <p>
-      Atualmente, cursando Ciência da Computação, buscando constante aprimoramento para acompanhar as transformações que integram TI e Automação Industrial.
-    </p>
-    <p>
-      Sou um profissional comprometido com a evolução contínua, com forte interesse em atuar estrategicamente na infraestrutura e confiabilidade de sistemas industriais, contribuindo para eficiência, segurança e inovação.
-    </p>
-  </section>
+      <div id="mobile-menu" class="mobile-menu" hidden>
+        <div class="mobile-menu-inner">
+          <a class="label" href="#sobre">Sobre</a>
+          <a class="label" href="#servicos">Serviços</a>
+          <a class="label" href="#experiencia">Experiência</a>
+          <a class="label" href="#visite">Visite</a>
+          <a class="mobile-cta" href="#visite">Agendar</a>
+        </div>
+      </div>
+    </header>
 
-  <section id="formacao">
-    <h2>Formação</h2>
-    <ul>
-      <li>Ensino superior - Ciencia da Computação - Em andamento</li>
-      <li>Técnico Eletrotécnico</li>
-      <li>Técnico Automação Industrial</li>
-      <li>Idiomas: Inglês (Avançado)</li>
-      <li>Linux LPI</li>
-      <li>JavaScript, Python</li>
-      <li>Redes de Computadores CCNA</li>
-    </ul>
-  </section>
+    <main id="top">
+      <section class="hero grain">
+        <img
+          class="hero-image"
+          src="./assets/hero-barber.jpg"
+          alt="Barbeiro em sessão íntima com navalha"
+          width="1600"
+          height="1800"
+        />
+        <div class="hero-overlay hero-overlay-left"></div>
+        <div class="hero-overlay hero-overlay-bottom"></div>
 
-  <section id="interesses">
-    <h2>Interesses e Estudos Atuais</h2>
-    <ul>
-      <li>Infraestrutura de Sistemas Industriais</li>
-      <li>Confiabilidade e Segurança de Redes Industriais</li>
-      <li>Integração IT/OT</li>
-      <li>Sistemas e Processos Digitais na Indústria</li>
-    </ul>
-  </section>
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <div class="eyebrow-row">
+              <span class="eyebrow-line"></span>
+              <span class="label eyebrow-text">Est. — Tradição Contemporânea</span>
+            </div>
 
-<section id="portfolio">
-  <h2>Portfólio</h2>
+            <h1 class="hero-title">
+              Precisão.<br />
+              <em>Tradição.</em><br />
+              Respeito.
+            </h1>
 
-  <div class="projetos-grid">
+            <p class="hero-description">
+              Sonata é uma barbearia onde cada corte é composto com tempo,
+              silêncio e ofício. Uma experiência cinematográfica para o homem que
+              entende o valor do detalhe.
+            </p>
 
-    <div class="card">
-      <h3>Simulador de CLP</h3>
-      <p>Projeto de simulação de lógica de controladores programáveis usando JavaScript puro.</p>
-      <a href="#start">Aguarde...</a>
-    </div>
+            <div class="hero-actions">
+              <a href="#visite" class="primary-button">Reservar Cadeira</a>
+              <a href="#servicos" class="secondary-link">Ver Serviços →</a>
+            </div>
+          </div>
 
-    <div class="card">
-      <h3>Sistema de Monitoramento Industrial</h3>
-      <p>Plataforma de coleta e exibição de dados de sensores industriais com foco em confiabilidade e segurança.</p>
-      <a href="#start">Aguarde...</a>
-    </div>
+          <div class="hero-footer">
+            <div class="hero-stats">
+              <div>
+                <div class="stat-key">12</div>
+                <div class="label stat-label">Anos de ofício</div>
+              </div>
+              <div>
+                <div class="stat-key">04</div>
+                <div class="label stat-label">Mestres barbeiros</div>
+              </div>
+              <div>
+                <div class="stat-key">∞</div>
+                <div class="label stat-label">Detalhe por detalhe</div>
+              </div>
+            </div>
+            <div class="label hero-note">Rolê pelo bairro — desde 2013</div>
+          </div>
+        </div>
+      </section>
 
-    <div class="card">
-      <h3>Automação de Esteiras</h3>
-      <p>Controle e automação de linhas de produção utilizando CLPs e sensores.</p>
-      <a href="#start">Aguarde...</a>
-    </div>
-  </div>
+      <section id="sobre" class="about-section">
+        <div class="container about-grid">
+          <div class="about-media">
+            <img
+              src="./assets/interior.jpg"
+              alt="Interior da Sonata Barbearia"
+              width="1400"
+              height="1600"
+            />
+          </div>
 
-</section>
+          <div class="about-copy">
+            <div class="eyebrow-row eyebrow-dark">
+              <span class="eyebrow-line"></span>
+              <span class="label eyebrow-text">Sobre a Casa</span>
+            </div>
 
-<!-- Blog Section voltado para postagens do cotidiano -->
-<section id="blog">
-  <h2>Blog</h2>
-  <div class="blog-posts">
-    <article class="post">
-      <h3>Autoria silenciosa também é técnica.</h3>
-      <p>
-        Construção de autoridade real não vem da autopromoção, mas da consistência
-      <br>
-        Em ambientes industriais, nem sempre o esforço é visível — e nem sempre a autoria é respeitada.
-      <br>
-      Às vezes, a parte mais simples de uma tarefa (trocar um módulo físico) é só a ponta de um iceberg muito maior (integração Fieldbus, SCADA, diagnóstico em rede...).
-      </br>
-      Mas, quando surgem dificuldades, é comum ver a atribuição de responsabilidade se deslocar — e cair em quem nem estava envolvido na etapa crítica.
-      </br>
-      Isso me ensinou algo valioso:
-      </br>
-       - Documentar </br>
-       - Se posicionar com calma </br>
-       - E principalmente: continuar fazendo o certo mesmo quando ninguém vê.
-      </br>
-      Nem todo mérito precisa ser público. Mas toda injustiça precisa encontrar uma barreira — nem que essa barreira seja a nossa consciência limpa.
-      </br>
-      </br>
-      #AutomaçãoIndustrial #ResponsabilidadeTécnica #EngenhariaDeCampo #AutoriaSilenciosa #Fieldbus #SCADA #ReflexõesProfissionais #LiderançaNaPrática
-      </p>
-      <a href="#start" class="start">Voltar para o Início</a>
-    </article>
+            <h2>Um lugar pensado para o ritual, não para a pressa.</h2>
 
-    <article class="post">
-      <h3>Microvitória técnica: IA local, criatividade e ética na prática</h3>
-      <p>
-        Recentemente, precisei retomar conhecimentos sobre diagnóstico de redes industriais para atender a uma demanda urgente no trabalho. O desafio? Pouco tempo e hardware limitado.
-        </br>
-        Criei uma solução simples, mas poderosa:
-        </br>
-        Usei WSL e FFmpeg para montar a infraestrutura e extrair o áudio de vídeos antigos de aula</br>
-         - Transcrevi tudo com Whisper (IA ASR local)</br>
-         - Desenvolvi prompts personalizados com ChatGPT para orientar os resumos</br>
-         - Executei o resumo final com GPT4All + LLaMA quantizada, tudo rodando localmente</br>
-        Com isso, condensei +75 mil palavras em ~5 mil, com foco direto na aplicação em campo</br>
-        </br>
-        Mais do que técnica, foi uma decisão ética: preservar a privacidade do conteúdo e respeitar a autoria das aulas, sem depender da nuvem.
-        </br>
-        Essa experiência reforça minha busca por integrar Automação Industrial, TI/OT e Ciência da Computação com propósito, eficiência e responsabilidade.
-        </br></br>
-        Se quiser trocar ideias sobre IA local, otimização de estudo técnico ou integração entre áreas, será um prazer conversar!
-        </br></br>
-        #AutomaçãoIndustrial #InteligenciaArtificial #TIOT #AprendizadoContínuo #Whisper #LLM #GPT4All #EngenhariaDePrompts #DiagnósticoIndustrial
-      </p>
-      <a href="#start" class="start">Voltar para o Início</a>
-    </article>
-  </div>
-</section>
+            <div class="divider"></div>
 
-<!--section contato constrói a estrutura do formulario de contato-->
-  <section id="contato" aria-labelledby="titulo-contato">
-    <div class="contact-card">
-      <h2 id="titulo-contato">Contato</h2>
-      <p class="section-intro">Preencha o formulário abaixo para entrar em contato.</p>
-      <p><strong>Todos os campos são obrigatórios</strong></p>
-      </br>
+            <div class="about-text-grid">
+              <p>
+                Sonata nasceu da convicção de que cortar o cabelo é um gesto
+                íntimo. Entre o couro da poltrona e o calor das lâminas, somos
+                herdeiros de uma tradição que sobrevive ao ruído.
+              </p>
+              <p>
+                Trabalhamos com hora marcada, sem fila e sem distração. Cada
+                cliente é único — cada corte, uma composição feita à mão. Esse é o
+                nosso pacto silencioso.
+              </p>
+            </div>
 
-      <form id="form-contato" novalidate>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required>
+            <div class="about-values">
+              <div>
+                <div class="value-title">Tempo</div>
+                <div class="value-copy">Sem pressa entre cadeiras.</div>
+              </div>
+              <div>
+                <div class="value-title">Ofício</div>
+                <div class="value-copy">Lâmina, tesoura, mão firme.</div>
+              </div>
+              <div>
+                <div class="value-title">Respeito</div>
+                <div class="value-copy">Você antes do agendamento.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required>
+      <section id="servicos" class="services-section grain">
+        <div class="container">
+          <div class="services-header">
+            <div class="services-heading">
+              <div class="eyebrow-row">
+                <span class="eyebrow-line"></span>
+                <span class="label eyebrow-text">Cardápio</span>
+              </div>
+              <h2>Cada serviço,<br /><em>um capítulo.</em></h2>
+            </div>
+            <p>
+              Trabalhamos com hora marcada e número limitado de clientes por
+              barbeiro. Reserve com antecedência.
+            </p>
+          </div>
 
-        <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          <div class="divider divider-spaced"></div>
 
-        <button type="submit">Enviar</button>
-      </form>
+          <ul class="services-list">
+            <li class="service-row">
+              <div class="label service-index">01</div>
+              <div class="service-title">Corte Clássico</div>
+              <p class="service-copy">Diagnóstico, tesoura e máquina. Acabamento em lâmina e finalização com produtos premium.</p>
+              <div class="label service-duration">45 min</div>
+              <div class="service-price">R$ 110</div>
+            </li>
+            <li class="service-row">
+              <div class="label service-index">02</div>
+              <div class="service-title">Barba Tradicional</div>
+              <p class="service-copy">Toalha quente, óleo, navalha aberta. Um ritual que respeita a pele e o tempo.</p>
+              <div class="label service-duration">40 min</div>
+              <div class="service-price">R$ 90</div>
+            </li>
+            <li class="service-row">
+              <div class="label service-index">03</div>
+              <div class="service-title">Sonata Completa</div>
+              <p class="service-copy">Corte, barba, hidratação capilar e cuidado facial. Nossa experiência assinatura.</p>
+              <div class="label service-duration">1h 30min</div>
+              <div class="service-price">R$ 220</div>
+            </li>
+            <li class="service-row">
+              <div class="label service-index">04</div>
+              <div class="service-title">Pigmentação</div>
+              <p class="service-copy">Camuflagem de fios brancos e densidade aparente, com acabamento natural e discreto.</p>
+              <div class="label service-duration">50 min</div>
+              <div class="service-price">R$ 130</div>
+            </li>
+            <li class="service-row">
+              <div class="label service-index">05</div>
+              <div class="service-title">Hidratação Capilar</div>
+              <p class="service-copy">Tratamento profundo para couro cabeludo e fios — base de um bom corte.</p>
+              <div class="label service-duration">30 min</div>
+              <div class="service-price">R$ 80</div>
+            </li>
+            <li class="service-row">
+              <div class="label service-index">06</div>
+              <div class="service-title">Dia do Noivo</div>
+              <p class="service-copy">Experiência reservada com bar, acompanhantes e atendimento personalizado.</p>
+              <div class="label service-duration">3h</div>
+              <div class="service-price">Sob consulta</div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-      <p id="mensagem-status" role="status" aria-live="polite"></p>
-    </div>
-  </section>
+      <section id="experiencia" class="experience-section grain">
+        <div class="container">
+          <div class="experience-heading">
+            <div class="eyebrow-row">
+              <span class="eyebrow-line"></span>
+              <span class="label eyebrow-text">A Experiência</span>
+            </div>
+            <h2>O detalhe é o que <em>permanece.</em></h2>
+          </div>
 
+          <div class="experience-grid">
+            <figure class="experience-main-frame">
+              <img
+                src="./assets/portrait1.jpg"
+                alt="Retrato cinematográfico"
+                width="1000"
+                height="1300"
+              />
+            </figure>
 
-</main>
+            <div class="experience-side-column">
+              <figure class="experience-small-frame">
+                <img
+                  src="./assets/cutting.jpg"
+                  alt="Corte sendo executado"
+                  width="1000"
+                  height="1300"
+                />
+              </figure>
 
-<footer>
-  <p>Sem coleta de dados, Sem rastreadores. &copy; 2026 Marcel Ramos</p>
-</footer>
+              <div class="manifest-card">
+                <div class="label manifest-label">Manifesto</div>
+                <p class="manifest-copy">
+                  “Atender bem é uma forma de tempo. E tempo, hoje, é luxo.”
+                </p>
+                <div class="label manifest-signature">— Os Mestres da Sonata</div>
+              </div>
 
-<!--chamada para javascript-->
-<script defer src="./js/script.js"></script>
+              <figure class="experience-small-frame">
+                <img
+                  src="./assets/tools.jpg"
+                  alt="Ferramentas tradicionais"
+                  width="1200"
+                  height="1400"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</body>
+      <section id="visite" class="visit-section">
+        <div class="container visit-grid">
+          <div class="visit-copy">
+            <div class="eyebrow-row eyebrow-dark">
+              <span class="eyebrow-line"></span>
+              <span class="label eyebrow-text">Visite-nos</span>
+            </div>
+            <h2>Uma cadeira reservada para você.</h2>
+            <p>
+              Agendamentos por telefone, WhatsApp ou diretamente em nossa
+              recepção. Recomendamos reservar com pelo menos 48h de antecedência.
+            </p>
 
+            <div class="visit-actions">
+              <a href="#" class="primary-button">Agendar pelo WhatsApp</a>
+              <a href="tel:+5511999999999" class="visit-phone">(11) 9 9999-9999</a>
+            </div>
+          </div>
+
+          <div class="visit-info">
+            <div class="info-block">
+              <div class="label info-label">Endereço</div>
+              <div class="info-lines">
+                <div>Rua das Acácias, 482</div>
+                <div>Vila Madalena — São Paulo, SP</div>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="label info-label">Horários</div>
+              <div class="info-lines">
+                <div>Terça a sexta — 10h às 21h</div>
+                <div>Sábado — 9h às 19h</div>
+                <div>Domingo e segunda — Fechado</div>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="label info-label">Contato</div>
+              <div class="info-lines">
+                <div>contato@sonatabarbearia.com.br</div>
+                <div>@sonatabarbearia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Sonata</div>
+          <p class="label">Barbearia — São Paulo</p>
+          <p class="footer-copy">
+            Precisão, tradição e respeito. Um ofício que se compõe com as mãos.
+          </p>
+        </div>
+
+        <div>
+          <div class="label footer-heading">Navegar</div>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#visite">Visite</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="label footer-heading">Siga</div>
+          <ul class="footer-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">WhatsApp</a></li>
+            <li><a href="#">Spotify — Playlist Sonata</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <div id="footer-year" class="label"></div>
+        <div class="label">Composta com ofício em SP</div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
